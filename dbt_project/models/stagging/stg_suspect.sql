@@ -2,19 +2,19 @@
 
 with merge as (
 select country,city, has_weapon,has_hat,has_jacket,behavior from {{ref('base_AFRICA')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior  from {{ref('base_AMERICA')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior  from {{ref('base_ASIA')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior  from {{ref('base_ATLANTIC')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior  from {{ref('base_AUSTRALIA')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior  from {{ref('base_EUROPE')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior from {{ref('base_INDIAN')}}
-UNION
+UNION ALL
 select country,city,has_weapon,has_hat,has_jacket,behavior  from {{ref('base_PACIFIC')}}
 )
 

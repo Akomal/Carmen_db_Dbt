@@ -2,19 +2,19 @@
 
 with merge as (
 select witness,date_witness,latitude,longitude from {{ref('base_AFRICA')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_AMERICA')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_ASIA')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_ATLANTIC')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_AUSTRALIA')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_EUROPE')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_INDIAN')}}
-UNION
+UNION ALL
 select witness,date_witness,latitude,longitude from {{ref('base_PACIFIC')}}
 )
 

@@ -1,19 +1,19 @@
 {{ config(materialized='table') }}
 with merge as (
 select agent,date_agent,city_agent from {{ref('base_AFRICA')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_AMERICA')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_ASIA')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_ATLANTIC')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_AUSTRALIA')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_EUROPE')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_INDIAN')}}
-UNION
+UNION ALL
 select agent,date_agent,city_agent from {{ref('base_PACIFIC')}}
 )
 
