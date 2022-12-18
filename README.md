@@ -1,5 +1,5 @@
 # Carmen_db_Dbt
 **Requirements**
-#python
-#dbt
-#POstgresql
+*1.python
+*2.dbt
+*3.POstgresql
