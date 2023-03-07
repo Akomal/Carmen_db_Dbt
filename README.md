@@ -1,7 +1,6 @@
-Carmen_db_Dbt
-Carmen_db_Dbt is an open-source data transformation project created using dbt (data build tool) to transform and model data for the fictional company, Carmen's Cars. The goal of this project is to demonstrate how to use dbt to create a data pipeline that transforms raw data into usable and reliable data for business analytics and reporting.
+#Carmen_db_Dbt is an open-source data transformation project created using dbt (data build tool) to transform and model data for the fictional company, Carmen's Cars. The goal of this project is to demonstrate how to use dbt to create a data pipeline that transforms raw data into usable and reliable data for business analytics and reporting. /n
 
-Requirements
+##Requirements
 To run this project, you will need:
 
 dbt installed on your machine
