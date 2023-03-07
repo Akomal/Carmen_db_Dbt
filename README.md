@@ -2,8 +2,8 @@
 
 <h1>Requirements</h1>
 To run this project, you will need:
-+dbt installed on your machine
-+Access to a PostgreSQL database
+1. dbt installed on your machine<br/>
+2. Access to a PostgreSQL database<br/>
 <h1>Installation</h1>
 +Clone this repository to your local machine
 +In your terminal, navigate to the root directory of the project
