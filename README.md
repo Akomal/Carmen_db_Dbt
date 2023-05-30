@@ -9,5 +9,4 @@ Once the project is installed, you can use the following dbt commands to work wi
 1._dbt seed_ - loads the seed data into the database<br/>
 2._dbt run_ - executes the transformations<br/>
 3._dbt test_ - runs the tests to ensure data quality<br/>
-<h2>Credits</h2><br/>
-This project was created by Akomal as part of a dbt learning project. Special thanks to the dbt community for their support and contributions to the project.
+
